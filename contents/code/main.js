@@ -36,4 +36,9 @@ function onClientChange(client) {
     }
 }
 
+// Ideally we would watch the name "net.sapples.LiveCaptions",
+// send AllowKeepAbove once, and subscribe to PropertiesChanged.
+// However it doesn't seem like there's a way to do this in KWin
+// scripts so we just do this any time the Live Captions client is
+// activated.
 workspace.clientActivated.connect(client => onClientChange(client));

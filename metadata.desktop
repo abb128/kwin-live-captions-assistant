@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Live Captions Assistant
+Comment=Allows keeping Live Captions window above even on Wayland
+
+X-KDE-PluginInfo-Author=abb128
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=kwin-live-captions-assistant
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-License=MIT
+
+Type=Service
+X-KDE-ServiceTypes=KWin/Script
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js

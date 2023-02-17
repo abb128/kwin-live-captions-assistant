@@ -1,3 +1,6 @@
+// (c) 2023 abb128
+// This code is licensed under MIT license (see LICENSE.txt for details)
+
 function setKeepAbove(keepAbove) {
     const liveCaptionsClient = workspace.clientList().find(client => client.caption === "Live Captions");
 
